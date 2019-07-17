@@ -1,0 +1,9 @@
+<view class="cml-radio  cml-base cml-view cml-2dd43446">
+  <view class="cml-radio-wrap  cml-base cml-view cml-2dd43446" onTap="_cmlEventProxy" data-eventtap="{{['changeSelect']}}">
+    <view class="cml-radio-select  cml-base cml-view cml-2dd43446" style="{{radioStyle}}">
+      <view class="{{ radioClass }}  cml-base cml-view cml-2dd43446" style="{{radioInnerStyle}}">
+      </view>
+    </view>
+    <text class="cml-radio-label  cml-base cml-text cml-2dd43446">{{label}}</text>
+  </view>
+</view>
