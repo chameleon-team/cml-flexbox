@@ -1,5 +1,0 @@
-{
-    "usingComponents": {
-        "poly-scroller": "./../../components/polyScroller/polyScroller"
-    }
-}

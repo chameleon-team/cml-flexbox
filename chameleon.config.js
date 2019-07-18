@@ -29,8 +29,8 @@ cml.config.merge({
     qq: true,
     tt:true,
   },
-  // platforms: ['tt'],
-  platforms: ["web","weex","wx","alipay","baidu"],
+  platforms: ['tt'],
+  // platforms: ["web","weex","wx","alipay","baidu"],
   buildInfo: {
     wxAppId: '123456'
   },

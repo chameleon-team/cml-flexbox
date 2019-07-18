@@ -1,3 +1,0 @@
-<view class="c-aside  cml-base cml-view cml-473b8e2e" style="{{mergeAsideStyle}}">
-  <slot class=" cml-base cml-slot cml-473b8e2e"></slot>
-</view>
