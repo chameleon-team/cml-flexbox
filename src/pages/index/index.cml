@@ -1,5 +1,5 @@
 <template>
-  <poly-scroller class="flex-page">
+  <page class="flex-page">
     <view class="flex-header">
       <text class="flex-header__title">FlexBox 布局</text>
     </view>
@@ -625,7 +625,7 @@
         </view>
       </view>
     </view>
-  </poly-scroller>
+  </page>
 </template>
 <script>
 class Row {

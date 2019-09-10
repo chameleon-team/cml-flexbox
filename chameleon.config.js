@@ -7,17 +7,17 @@ const path = require('path')
 cml.config.merge({
   templateLang: "cml",
   templateType: "html",
-  builtinNpmName: 'cml-tt-ui-builtin',
+  builtinNpmName: 'cml-quickapp-ui-builtin',
   extPlatform: {
-    tt: 'cml-tt-plugin',
+    quickapp: 'cml-quickapp-plugin',
   },
   babelPath: [
-    path.join(__dirname,'node_modules/cml-tt-ui-builtin'),
-    path.join(__dirname,'node_modules/cml-tt-runtime'),
-    path.join(__dirname,'node_modules/cml-tt-api'),
-    path.join(__dirname,'node_modules/cml-tt-ui'),
-    path.join(__dirname,'node_modules/cml-tt-store'),
-    path.join(__dirname,'node_modules/cml-tt-mixins'),
+    path.join(__dirname,'node_modules/cml-quickapp-ui-builtin'),
+    path.join(__dirname,'node_modules/cml-quickapp-runtime'),
+    path.join(__dirname,'node_modules/cml-quickapp-api'),
+    path.join(__dirname,'node_modules/cml-quickapp-ui'),
+    path.join(__dirname,'node_modules/cml-quickapp-store'),
+    path.join(__dirname,'node_modules/cml-quickapp-mixins'),
     path.join(__dirname,'node_modules/mobx'),
   ],
   baseStyle:{
@@ -27,12 +27,23 @@ cml.config.merge({
     alipay: true,
     baidu: true,
     qq: true,
-    tt:true,
+    quickapp: true,
   },
-  // platforms: ['tt'],
-  platforms: ["web","weex","wx","tt"],
+  // platforms: ['quickapp'],
+  platforms: ["web","weex","wx","quickapp"],
   buildInfo: {
     wxAppId: '123456'
+  },
+  quickapp: {
+    dev: {
+      // moduleIdType: 'name',
+      minimize: false,
+      increase: true
+    },
+    build: {
+      minimize: true,
+      hash: false
+    }
   },
   wx: {
     dev: {
