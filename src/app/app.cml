@@ -23,7 +23,7 @@ export default new App();
 <script cml-type="json">
   {
     "quickapp": {
-      "package": "com.application.cml-flexbox",
+      "package": "com.application.flexbox",
       "name": "cml-flexbox",
       "versionName": "1.0.0",
       "versionCode": "1",
