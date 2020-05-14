@@ -6,7 +6,7 @@
     <view class="flex-body">
       <view class="flex-panel">
         <view class="flex-panel__title">
-          <text class="flex-panel__title-text weight_700"> flex-direction属性：</text>
+          <text class="flex-panel__title-text weight_700"> flex-direction属性:</text>
           <text class="flex-panel__title-text color-brown"> 定义主轴的方向（即项目的排列方向）</text>
           <text class="flex-panel__title-text color-brown"> row | row-reverse | column | column-reverse</text>
         </view>
