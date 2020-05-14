@@ -7,18 +7,18 @@
   "scripts": {},
   "license": "MIT",
   "dependencies": {
-    "chameleon-api": "^1.0.1",
+    "chameleon-api": "0.4.6",
     "chameleon-bridge": "^0.2.0",
     "chameleon-css-loader": "^1.0.3",
     "chameleon-runtime": "1.0.0",
     "chameleon-store": "1.0.0",
-    "chameleon-ui-builtin": "^1.0.1",
+    "chameleon-ui-builtin": "0.4.0-mvvm.3",
     "cml-quickapp-api": "1.0.0",
     "cml-quickapp-plugin": "1.0.0",
     "cml-quickapp-runtime": "1.0.0",
     "cml-quickapp-store": "1.0.0",
     "cml-quickapp-ui": "1.0.0",
     "cml-quickapp-ui-builtin": "1.0.0",
-    "cml-ui": "1.0.0"
+    "cml-ui": "0.3.0-alpha.1"
   }
 }
